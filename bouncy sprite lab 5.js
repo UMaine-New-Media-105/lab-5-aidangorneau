@@ -53,4 +53,10 @@ function keyPressed(){
     speedX += -1;
     speedY += -1;
   }
+    if (keyCode == RIGHT_ARROW){//changes x axis speed 
+    speedX += 1;
+  }
+  if (keyCode == LEFT_ARROW){//changes x axis speed
+    speedX += -1;
+  }
 }
